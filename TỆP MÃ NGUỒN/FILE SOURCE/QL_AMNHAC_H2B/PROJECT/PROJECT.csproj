@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D66450D1-143F-4C69-90DD-78829E4F59D3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PROJECT</RootNamespace>
+    <AssemblyName>PROJECT</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DB_LAYER\ADMINISTATOR.cs" />
+    <Compile Include="DB_LAYER\ALBUM.cs" />
+    <Compile Include="DB_LAYER\BAIHAT.cs" />
+    <Compile Include="DB_LAYER\CTDANHSACHCHOINHAC.cs" />
+    <Compile Include="DB_LAYER\DANHSACHCHOINHAC.cs" />
+    <Compile Include="DB_LAYER\DB.cs" />
+    <Compile Include="GUI\DANGKY_DANGNHAP\DANGKY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DANGKY_DANGNHAP\DANGKY.Designer.cs">
+      <DependentUpon>DANGKY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DANGKY_DANGNHAP\DANGNHAP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DANGKY_DANGNHAP\DANGNHAP.Designer.cs">
+      <DependentUpon>DANGNHAP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\ALBUM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\ALBUM.Designer.cs">
+      <DependentUpon>ALBUM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\BAIHAT.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\BAIHAT.Designer.cs">
+      <DependentUpon>BAIHAT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\EMAIL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\EMAIL.Designer.cs">
+      <DependentUpon>EMAIL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\NGHESI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\NGHESI.Designer.cs">
+      <DependentUpon>NGHESI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\PHIM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\PHIM.Designer.cs">
+      <DependentUpon>PHIM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\playlist_chuaco.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\playlist_chuaco.Designer.cs">
+      <DependentUpon>playlist_chuaco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\PLAYLIST_coroi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\PLAYLIST_coroi.Designer.cs">
+      <DependentUpon>PLAYLIST_coroi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\THEM_EMAIL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\NGUOIDUNG\THEM_EMAIL.Designer.cs">
+      <DependentUpon>THEM_EMAIL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM MAIN\BAIHATVIDEO.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM MAIN\BAIHATVIDEO.Designer.cs">
+      <DependentUpon>BAIHATVIDEO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM MAIN\HOPTHU.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM MAIN\HOPTHU.Designer.cs">
+      <DependentUpon>HOPTHU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM MAIN\NGUOIDUNG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM MAIN\NGUOIDUNG.Designer.cs">
+      <DependentUpon>NGUOIDUNG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM MAIN\NHANVIEN.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM MAIN\NHANVIEN.Designer.cs">
+      <DependentUpon>NHANVIEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM MAIN\FRM_QUANLI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM MAIN\FRM_QUANLI.Designer.cs">
+      <DependentUpon>FRM_QUANLI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM SỬA\SUAKHACHHANG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM SỬA\SUAKHACHHANG.Designer.cs">
+      <DependentUpon>SUAKHACHHANG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM SỬA\SUANHANVIEN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM SỬA\SUANHANVIEN.Designer.cs">
+      <DependentUpon>SUANHANVIEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM THÊM\THEMHOPTHU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM THÊM\THEMHOPTHU.Designer.cs">
+      <DependentUpon>THEMHOPTHU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM THÊM\THEMNHAC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM THÊM\THEMNHAC.Designer.cs">
+      <DependentUpon>THEMNHAC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM THÊM\THEMNHANVIEN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM THÊM\THEMNHANVIEN.Designer.cs">
+      <DependentUpon>THEMNHANVIEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM THÊM\THEMVIDEO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QUANLI\FORM THÊM\THEMVIDEO.Designer.cs">
+      <DependentUpon>THEMVIDEO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB_LAYER\HOPTHU.cs" />
+    <Compile Include="LOGIC_LAYER\LOGIC.cs" />
+    <Compile Include="DB_LAYER\NGHESI.cs" />
+    <Compile Include="DB_LAYER\NGUOIDUNG.cs" />
+    <Compile Include="DB_LAYER\PHIM.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DB_LAYER\sysdiagram.cs" />
+    <EmbeddedResource Include="GUI\DANGKY_DANGNHAP\DANGKY.resx">
+      <DependentUpon>DANGKY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DANGKY_DANGNHAP\DANGNHAP.resx">
+      <DependentUpon>DANGNHAP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NGUOIDUNG\ALBUM.resx">
+      <DependentUpon>ALBUM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NGUOIDUNG\BAIHAT.resx">
+      <DependentUpon>BAIHAT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NGUOIDUNG\EMAIL.resx">
+      <DependentUpon>EMAIL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NGUOIDUNG\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NGUOIDUNG\NGHESI.resx">
+      <DependentUpon>NGHESI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NGUOIDUNG\PHIM.resx">
+      <DependentUpon>PHIM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NGUOIDUNG\playlist_chuaco.resx">
+      <DependentUpon>playlist_chuaco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NGUOIDUNG\PLAYLIST_coroi.resx">
+      <DependentUpon>PLAYLIST_coroi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\NGUOIDUNG\THEM_EMAIL.resx">
+      <DependentUpon>THEM_EMAIL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QUANLI\FORM MAIN\BAIHATVIDEO.resx">
+      <DependentUpon>BAIHATVIDEO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QUANLI\FORM MAIN\HOPTHU.resx">
+      <DependentUpon>HOPTHU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QUANLI\FORM MAIN\NGUOIDUNG.resx">
+      <DependentUpon>NGUOIDUNG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QUANLI\FORM MAIN\NHANVIEN.resx">
+      <DependentUpon>NHANVIEN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QUANLI\FORM MAIN\FRM_QUANLI.resx">
+      <DependentUpon>FRM_QUANLI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QUANLI\FORM SỬA\SUAKHACHHANG.resx">
+      <DependentUpon>SUAKHACHHANG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QUANLI\FORM SỬA\SUANHANVIEN.resx">
+      <DependentUpon>SUANHANVIEN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QUANLI\FORM THÊM\THEMHOPTHU.resx">
+      <DependentUpon>THEMHOPTHU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QUANLI\FORM THÊM\THEMNHAC.resx">
+      <DependentUpon>THEMNHAC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QUANLI\FORM THÊM\THEMNHANVIEN.resx">
+      <DependentUpon>THEMNHANVIEN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QUANLI\FORM THÊM\THEMVIDEO.resx">
+      <DependentUpon>THEMVIDEO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
