@@ -82,3 +82,42 @@ C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\FILE EXE\FILE SOURCE\QL
 C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\FILE EXE\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.Properties.Resources.resources
 C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\FILE EXE\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.csproj.GenerateResource.Cache
 C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\FILE EXE\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\bin\Debug\PROJECT.exe.config
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\Interop.WMPLib.dll
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.csproj.ResolveComReference.cache
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.exe
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.pdb
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\bin\Debug\PROJECT.exe
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\bin\Debug\PROJECT.pdb
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\bin\Debug\EntityFramework.dll
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\bin\Debug\EntityFramework.xml
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\bin\Debug\Interop.WMPLib.dll
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.DANGKY_DANGNHAP.DANGKY.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.DANGKY_DANGNHAP.DANGNHAP.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.NGUOIDUNG.ALBUM.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.NGUOIDUNG.BAIHAT.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.NGUOIDUNG.EMAIL.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.Form1.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.NGUOIDUNG.NGHESI.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.NGUOIDUNG.PHIM.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.NGUOIDUNG.playlist_chuaco.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.NGUOIDUNG.PLAYLIST_coroi.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.NGUOIDUNG.THEM_EMAIL.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.QUANLI.BAIHATVIDEO.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.QUANLI.HOPTHU.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.QUANLI.NGUOIDUNG.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.QUANLI.NHANVIEN.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.FRM_QUANLI.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.QUANLI.FORM_SỬA.SUAKHACHHANG.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.QUANLI.FORM_SỬA.SUANHANVIEN.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.QUANLI.FORM_THÊM.THEMHOPTHU.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.QUANLI.FORM_THÊM.THEMNHAC.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.QUANLI.FORM_THÊM.THEMNHANVIEN.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.GUI.QUANLI.FORM_THÊM.THEMVIDEO.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.Properties.Resources.resources
+C:\Users\Asus\Desktop\ĐỒ ÁN\Đồ án trường\CC++\[CCP2017][Music Management]\TỆP MÃ NGUỒN\FILE SOURCE\QL_AMNHAC_H2B\PROJECT\obj\Debug\PROJECT.csproj.GenerateResource.Cache
